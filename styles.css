@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+.title {
+       font-family:Roboto;
+}
+
+>>>>>>> 6a90ee87760a07b6c687153ce81061473e6aa9d7
 body {
   margin: 0;
 }
@@ -7,6 +14,11 @@ body {
   justify-content: space-between;
 }
 
+<<<<<<< HEAD
+=======
+.main-section {}
+
+>>>>>>> 6a90ee87760a07b6c687153ce81061473e6aa9d7
 .wrapper {
   margin: auto;
   width: 80%;
