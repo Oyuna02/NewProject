@@ -23,10 +23,7 @@
   position: relative;
   padding: 40px 0;
   padding-left: 44px;
-  font-family: pt_serif, arial, helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 31px;
+  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
 }
 .logo__circle{
   position: absolute;
@@ -37,16 +34,17 @@
   width: 28px;
   height: 28px;
   border: dashed 1px;
-  border-radius: 50%
-  opacity:.7;
+  border-radius: 50%;
   }
 .logo__circle_color_blue{
   left: 8px;
-  right: 56px;
+  top: 56%;
   background: #C8DBFB
+  opacity:.7
 }
 .logo__circle_color_dark-blue{
-  background: #OO56EC;
+  background: #0056EC;
+  opacity:.7
 }
 
 .menu__item {
@@ -59,7 +57,7 @@
   text-decoration: none;
   transition: opacity .5s;
 }
-.menu__item_active:after{
+.menu__item_active::after{
   position: absolute;
   display: block;
   content:'';
@@ -69,7 +67,7 @@
   background: #OO56EC;
   opacity:0;
 }
-.menu__item:after{
+.menu__item::after{
     position: absolute;
     display: block;
     content:'';
